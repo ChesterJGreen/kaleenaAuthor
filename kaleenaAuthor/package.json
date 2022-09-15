@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+      "vue-confetti": "^2.3.0",
+      "vue-freeze-gif": "^0.1.7"
+    }
+  }
