@@ -4,3 +4,25 @@
     background-color: #fbf9f9;
   }
 }
+.see-through {
+  opacity: 0;
+}
+.seeable {
+  opacity: 1;
+}
+.headerForNavBar {
+  position:fixed; /* fixing the position takes it out of html flow - knows
+                   nothing about where to locate itself except by browser
+                   coordinates */
+  left:0;           /* top left corner should start at leftmost spot */
+  top:0;            /* top left corner should start at topmost spot */
+  width:100vw;      /* take up the full browser width */
+  z-index:200;  /* high z index so other content scrolls underneath */
+  height:100px;     /* define height for content */
+}
+.white-text-shadow {
+  text-shadow: 1px 1px 2px white;
+}
+.black-text-shadow {
+  text-shadow: 1px 1px 2px black;
+}
