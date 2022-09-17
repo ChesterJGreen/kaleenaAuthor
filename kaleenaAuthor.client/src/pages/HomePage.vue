@@ -54,15 +54,15 @@
       <div class="col-12 p-5">
         <div class=" lighten-10 row p-5">
           <div class="col-4 px-5">
-            <img class="w-75 mx-3 rounded-circle border border-dark"
+            <img class="w-75 mx-3 rounded-circle border  border-info white-box-shadow"
               src="https://th.bing.com/th/id/OIP.3wtQitk5ts9AzEepDVPyLAHaIy?pid=ImgDet&rs=1">
           </div>
           <div class="col-4 px-5">
-            <img id="imaginationPic" class="mx-3 rounded-circle border border-dark"
+            <img id="imaginationPic" class="mx-3 rounded-circle border border-info"
               src="https://www.bing.com/th?id=OIP.qtxvbuVcVvPSy-vYZlLwoQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2">
           </div>
           <div class="col-4 px-5">
-            <img class="w-75 mx-3 bg-white rounded-circle border border-dark"
+            <img class="w-75 mx-3 bg-white rounded-circle border border-info"
               src="https://th.bing.com/th/id/R.506ce96b5875a2b4ce2515a19c94f30d?rik=HmHK4w1fN4l%2feQ&riu=http%3a%2f%2fclipartix.com%2fwp-content%2fuploads%2f2016%2f04%2fAmerican-flag-united-states-flag-clipart-3-clipartcow-2.png&ehk=2uh%2fEffAtPqEiKAozxozIzyS4a0XuWVi1W60RsggWCg%3d&risl=&pid=ImgRaw&r=0">
           </div>
           <div class="col-4 px-5 mt-3">

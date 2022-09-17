@@ -40,10 +40,10 @@
               <a href="http://www.twitter.com"><img width="25" src="src\assets\img\2021 Twitter logo - black.png"></a>
           </ul>
           <ul>
-            <a href="http://www.facebook.com"><img width="25" src="src\assets\img\f_logo_RGB-Black_144.png"></a>
+            <a href="https://www.facebook.com/kaleena.shreeve"><img width="25" src="src\assets\img\f_logo_RGB-Black_144.png"></a>
           </ul>
           <ul>
-            <a href="http://www.instagram.com"><img width="25" src="src\assets\img\Instagram_Glyph_Black.png"></a>
+            <a href="https://www.instagram.com/kaleenashreeve1/"><img width="25" src="src\assets\img\Instagram_Glyph_Black.png"></a>
           </ul>
           <ul>
             <span class="border border-dark rounded border-2 p-1 ">
