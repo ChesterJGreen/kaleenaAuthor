@@ -2,7 +2,7 @@
   <div class="flex-grow-1 container-fluid mt-5">
     <div class="row">
       <div class="col-3 mt-5">
-        <img alt="logo" class="rounded w-100 my-5"
+        <img alt="logo" class="rounded w-100 my-5 elevation-5"
           src="https://i.pinimg.com/280x280_RS/97/0e/3d/970e3dcfaa84c409f7879cce2d1c653e.jpg" />
       </div>
       <div class="col-9 px-5 mt-5 text-center">
@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="row" id="directionsToHappinessParent">
-      <div class="col-4 border border-dark bg-success" id="directionsToHappiness">
+      <div class="col-4 bg-success elevation-5" id="directionsToHappiness">
         <div class="row">
           <div class="col-12 pt-3">
             <span class="f-24 px-4 white-text-shadow">Directions to escape to</span><br>
