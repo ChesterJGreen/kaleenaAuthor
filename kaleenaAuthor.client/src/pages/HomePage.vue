@@ -16,7 +16,7 @@
           <div class="col-12 pt-3">
             <span class="f-24 px-4 white-text-shadow">Directions to escape to</span><br>
             <span class="f-24 px-4 white-text-shadow">Happiness:</span>
-            <Particles />
+            
             <hr />
             <hr />
           </div>
