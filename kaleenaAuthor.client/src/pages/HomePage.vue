@@ -6,7 +6,7 @@
           src="https://i.pinimg.com/280x280_RS/97/0e/3d/970e3dcfaa84c409f7879cce2d1c653e.jpg" />
       </div>
       <div class="col-9 px-5 mt-5 text-center">
-        <img class="w-100 mt-5" src="src\assets\img\Stories.gif">
+        <img class="w-100 mt-5" src="src\assets\img\Stories.png">
         <span class="f-28">Ready for a shot of <span class="selectable">Happiness?</span></span>
       </div>
     </div>
@@ -87,11 +87,9 @@
 </template>
 
 <script>
-import Particles from "../components/Particles.vue";
 
 export default {
     name: "Home",
-    components: { Particles }
 }
 
 </script>
