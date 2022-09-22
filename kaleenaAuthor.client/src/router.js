@@ -35,7 +35,7 @@ const routes = [
   {
     path: '/contact',
     name: 'Contact',
-    component: loadPage('Contact')
+    component: loadPage('ContactPage')
   },
 ]
 
