@@ -50,7 +50,7 @@
         </p>
       </div>
     </div>
-    <div class="bg-warning mt-5 row align-items-center home">
+    <div class="bg-primary mt-5 row align-items-center home">
       <div class="col-12 p-5">
         <div class=" lighten-10 row p-5">
           <div class="col-4 px-5">
