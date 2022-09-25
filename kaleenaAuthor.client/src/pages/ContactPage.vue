@@ -6,8 +6,9 @@
         </div>
         <div class="col-12 mt-5">
           <div class="row">
-            <div class="col-12">
-              
+            <div class="col-12 text-center">
+              <span>Thanks for stopping by</span><br>
+              <span>Let's keep in touch</span>
             </div>
           </div>
         </div>
