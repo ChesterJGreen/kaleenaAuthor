@@ -9,6 +9,7 @@
           </div>
           <div class="row">
             <div class="col-8">
+              <BlogPost :blogs="blogs" />
             </div>
           </div>
         </div>
