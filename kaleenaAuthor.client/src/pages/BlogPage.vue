@@ -9,7 +9,7 @@
           </div>
           <div class="row">
             <div class="col-8">
-              <BlogPost :blogs="blogs" />
+              <BlogsThread :blogs="blogs" />
             </div>
           </div>
         </div>
@@ -18,8 +18,10 @@
   </template>
   
   <script>
+import BlogsThread from "../components/BlogsThread.vue";
   export default {
-    name: 'BlogPage'
-  }
+    name: "BlogPage",
+    components: { BlogsThread }
+}
   </script>
   
