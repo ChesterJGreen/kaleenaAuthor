@@ -7,8 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace kaleenaAuthor.Controllers
 {
+    [Route("api/[controller]")]
     [ApiController]
-    [Route("/api/[controller]")]
     public class BlogsController : ControllerBase
     {
         private readonly BlogsService _bs;
@@ -19,11 +19,11 @@ namespace kaleenaAuthor.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Blog>> Get()
+        public ActionResult<List<Blog>> GetAll()
         {
             try
             {
-                List<Blog> blogs = _bs.Get();
+                List<Blog> blogs = _bs.GetAll();
                 return Ok(blogs);
             }
             catch (Exception err)

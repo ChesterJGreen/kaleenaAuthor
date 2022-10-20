@@ -39,7 +39,7 @@ namespace kaleenaAuthor.Repositories
                 Name = "Blog3",
                 Image = "https://arthurfindelair.com/thisnightskydoesnotexist/"
             };
-            List<Blog> blogs = new List<Blog>()
+            List<Blog> blogs = new List<Blog>();
             blogs.Add(blog1);
             blogs.Add(blog2);
             blogs.Add(blog3);
