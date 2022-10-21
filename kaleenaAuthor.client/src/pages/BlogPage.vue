@@ -18,10 +18,28 @@
   </template>
   
   <script>
+import { computed } from "@vue/reactivity";
+import { onMounted } from "vue";
+import { AppState } from "../AppState";
 import BlogsThread from "../components/BlogsThread.vue";
+import { blogsService } from "../services/BlogsService";
+import Pop from "../utils/Pop";
+
   export default {
     name: "BlogPage",
-    components: { BlogsThread }
+    components: { BlogsThread },
+    setup() {
+      onMounted(async() => {
+        try {
+          await blogsService.getAll()
+        } catch (error) {
+          Pop.toast(error, 'error')
+        }
+      })
+      return {
+        blogs: computed(() => AppState.blogs)
+      }
+    }
 }
   </script>
   

@@ -1,14 +1,13 @@
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using kaleenaAuthor.Models;
 using kaleenaAuthor.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace kaleenaAuthor.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class BlogsController : ControllerBase
     {
         private readonly BlogsService _bs;
