@@ -12,10 +12,13 @@ namespace kaleenaAuthor.Services
         {
             _repo = repo;
         }
-        public List<Blog> GetAll()
+        internal List<Blog> GetAll()
         {
             return _repo.GetAll();
         }
-        public 
+        internal Blog Create(Blog newBlog)
+        {
+            return _repo.Create(newBlog)
+        }  
     }
 }

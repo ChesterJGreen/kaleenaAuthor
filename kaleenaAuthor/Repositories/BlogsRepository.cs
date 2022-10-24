@@ -17,6 +17,10 @@ namespace kaleenaAuthor.Repositories
             var blogs = GetSomeFakeBlogs(); 
             return blogs;
         }
+        internal Blog Create(Blog newBlog)
+        {
+            return newBlog;
+        }
         internal List<Blog> GetSomeFakeBlogs()
         {
             var blog1 = new Blog()
