@@ -18,7 +18,7 @@ namespace kaleenaAuthor.Services
         }
         internal Blog Create(Blog newBlog)
         {
-            return _repo.Create(newBlog)
+            return _repo.Create(newBlog);
         }  
     }
 }
