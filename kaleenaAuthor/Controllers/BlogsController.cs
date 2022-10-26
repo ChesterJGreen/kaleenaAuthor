@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using kaleenaAuthor.Models;
 using kaleenaAuthor.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -35,15 +34,12 @@ namespace kaleenaAuthor.Controllers
         }
         [HttpPost]
         [Authorize]
-        public async Task<ActionResult<Blog>> Create([FromBody] Blog newBlog)
+        public ActionResult<Blog> Create([FromBody] Blog newBlog)
         {
-            try{
-                bool userInfo = await HttpContext.User.FindFirst(System.Security.Claims.Claim);
-                if (userInfo)
-                {
+            try 
+            {
                 Blog created = _bs.Create(newBlog);
                 return Ok(created);
-                }
             }
             catch (Exception err)
             {
