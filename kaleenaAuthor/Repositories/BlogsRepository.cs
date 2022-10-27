@@ -59,6 +59,13 @@ namespace kaleenaAuthor.Repositories
 
         }
 
+        internal void RemoveBlog(int blogId)
+        {
+            List<Blog> blogs = GetSomeFakeBlogs();
+            Blog blogToDelete = GetById(blogId);
+            blogs.Remove(blogToDelete);
+        }
+
         internal Blog Edit(Blog editedBlog)
         {
             List<Blog> blogs = GetSomeFakeBlogs();

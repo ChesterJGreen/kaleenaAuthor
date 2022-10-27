@@ -32,5 +32,9 @@ namespace kaleenaAuthor.Services
             _repo.Edit(editedBlog);
             return blog;
         }
+        internal void RemoveBlog(int blogId)
+        {
+            _repo.RemoveBlog(blogId);
+        }
     }
 }

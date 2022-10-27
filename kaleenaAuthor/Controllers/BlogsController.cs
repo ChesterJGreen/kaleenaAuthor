@@ -73,5 +73,13 @@ namespace kaleenaAuthor.Controllers
                 return BadRequest(err.Message);
             }
         }
+        [HttpDelete("{id}")]
+        [Authorize]
+        public void Delete(int blogId)
+        {
+           var blogToDelete = _bs.GetById(blogId);
+           if (blogToDelete == null) throw new Exception("Blog is non-existant");
+           _bs.RemoveBlog(blogToDelete.Id);
+        }
     }
 }
