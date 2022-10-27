@@ -33,7 +33,7 @@ namespace kaleenaAuthor.Controllers
             }
         }
         [HttpGet]
-        public ActionResult<Blog> GetById(Int blogId)
+        public ActionResult<Blog> GetById(int blogId)
         {
             try
             {
@@ -42,7 +42,7 @@ namespace kaleenaAuthor.Controllers
             }
             catch (Exception err)
             {
-                return BadRequest(err.Message)
+                return BadRequest(err.Message);
             }
         }
         [HttpPost]
@@ -53,6 +53,20 @@ namespace kaleenaAuthor.Controllers
             {
                 Blog created = _bs.Create(newBlog);
                 return Ok(created);
+            }
+            catch (Exception err)
+            {
+                return BadRequest(err.Message);
+            }
+        }
+        [HttpPut]
+        [Authorize]
+        public ActionResult<Blog> Edit([FromBody] Blog blog)
+        {
+            try
+            {
+                Blog editedBlog = _bs.Edit(blog);
+                return Ok(editedBlog);
             }
             catch (Exception err)
             {

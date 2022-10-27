@@ -23,6 +23,14 @@ namespace kaleenaAuthor.Services
         internal Blog Create(Blog newBlog)
         {
             return _repo.Create(newBlog);
-        }  
+        }
+
+        internal Blog Edit(Blog blog)
+        {
+            Blog oldBlog = GetById(blog.Id);
+            Blog editedBlog = new Blog();
+            _repo.Edit(editedBlog);
+            return blog;
+        }
     }
 }

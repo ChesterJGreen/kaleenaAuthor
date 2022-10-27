@@ -58,5 +58,12 @@ namespace kaleenaAuthor.Repositories
             return blogs;
 
         }
+
+        internal Blog Edit(Blog editedBlog)
+        {
+            List<Blog> blogs = GetSomeFakeBlogs();
+            Blog blogToEdit = new Blog();
+            return blogToEdit;
+        }
     }
 }
