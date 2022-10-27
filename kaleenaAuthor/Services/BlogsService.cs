@@ -16,6 +16,10 @@ namespace kaleenaAuthor.Services
         {
             return _repo.GetAll();
         }
+        internal Blog GetById(int blogId)
+        {
+            return _repo.GetById(blogId);
+        }
         internal Blog Create(Blog newBlog)
         {
             return _repo.Create(newBlog);

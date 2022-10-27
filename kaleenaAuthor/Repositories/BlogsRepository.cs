@@ -14,13 +14,21 @@ namespace kaleenaAuthor.Repositories
 
         internal List<Blog> GetAll()
         {
-            var blogs = GetSomeFakeBlogs(); 
+            List<Blog> blogs = GetSomeFakeBlogs(); 
             return blogs;
+        }
+        internal Blog GetById(int blogId)
+        {
+            List<Blog> blogs = GetSomeFakeBlogs();
+            Blog blog = blogs.Find(x => x.Id == blogId);
+            return blog;
         }
         internal Blog Create(Blog newBlog)
         {
             return newBlog;
         }
+
+
         internal List<Blog> GetSomeFakeBlogs()
         {
             var blog1 = new Blog()

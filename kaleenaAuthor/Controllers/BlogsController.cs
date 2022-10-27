@@ -32,6 +32,19 @@ namespace kaleenaAuthor.Controllers
                 return BadRequest(err.Message);
             }
         }
+        [HttpGet]
+        public ActionResult<Blog> GetById(Int blogId)
+        {
+            try
+            {
+                Blog blog = _bs.GetById(blogId);
+                return Ok(blog);
+            }
+            catch (Exception err)
+            {
+                return BadRequest(err.Message)
+            }
+        }
         [HttpPost]
         [Authorize]
         public ActionResult<Blog> Create([FromBody] Blog newBlog)
