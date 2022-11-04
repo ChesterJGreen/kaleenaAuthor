@@ -1,10 +1,11 @@
 using kaleenaAuthor.Repositories;
 using System.Collections.Generic;
 using kaleenaAuthor.Models;
+using kaleenaAuthor.Interfaces;
 
 namespace kaleenaAuthor.Services
 {
-    public class BlogsService
+    public class BlogsService : IBlogsService
     {
         private readonly BlogsRepository _repo;
 
@@ -12,27 +13,27 @@ namespace kaleenaAuthor.Services
         {
             _repo = repo;
         }
-        internal List<Blog> GetAll()
+        public List<Blog> GetAll()
         {
             return _repo.GetAll();
         }
-        internal Blog GetById(int blogId)
+        public Blog GetById(int blogId)
         {
             return _repo.GetById(blogId);
         }
-        internal Blog Create(Blog newBlog)
+        public Blog Create(Blog newBlog)
         {
             return _repo.Create(newBlog);
         }
 
-        internal Blog Edit(Blog blog)
+        public Blog Edit(Blog blog)
         {
             Blog oldBlog = GetById(blog.Id);
             Blog editedBlog = new Blog();
             _repo.Edit(editedBlog);
             return blog;
         }
-        internal void RemoveBlog(int blogId)
+        public void RemoveBlog(int blogId)
         {
             _repo.RemoveBlog(blogId);
         }
