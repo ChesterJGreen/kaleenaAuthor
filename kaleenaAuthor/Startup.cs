@@ -8,6 +8,7 @@ using Microsoft.OpenApi.Models;
 using MySqlConnector;
 using kaleenaAuthor.Repositories;
 using kaleenaAuthor.Services;
+using kaleenaAuthor.Interfaces;
 
 namespace kaleenaAuthor
 {
