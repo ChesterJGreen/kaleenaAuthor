@@ -1,5 +1,4 @@
 using System.Data;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -37,6 +36,8 @@ namespace kaleenaAuthor
             services.AddScoped<AccountService>();
             services.AddScoped<BlogsService>();
             services.AddScoped<BlogsRepository>();
+            services.AddScoped<IBlogsService>();
+            services.AddScoped<IBlogsRepository>();
         }
 
         private void ConfigureCors(IServiceCollection services)
@@ -58,15 +59,15 @@ namespace kaleenaAuthor
 
         private void ConfigureAuth(IServiceCollection services)
         {
-            services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(options =>
-            {
-                options.Authority = $"https://{Configuration["AUTH0_DOMAIN"]}/";
-                options.Audience = Configuration["AUTH0_AUDIENCE"];
-            });
+            // services.AddAuthentication(options =>
+            // {
+            //     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            //     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            // }).AddJwtBearer(options =>
+            // {
+            //     options.Authority = $"https://{Configuration["AUTH0_DOMAIN"]}/";
+            //     options.Audience = Configuration["AUTH0_AUDIENCE"];
+            // });
 
         }
 
