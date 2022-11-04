@@ -5,10 +5,11 @@ namespace kaleenaAuthor.Interfaces
 {
     public interface IBlogsRepository
     {
-        internal List<Blog> GetAll();
-        internal Blog GetById(int blogId);
-        internal Blog Create(Blog newBlog);
-        internal Blog Edit(Blog blogToEdit);
-        internal void RemoveBlog(int blogId); 
+        public List<Blog> GetAll();
+        public Blog GetById(int blogId);
+        public Blog Create(Blog newBlog);
+        public Blog Edit(Blog blogToEdit);
+        public void RemoveBlog(int blogId); 
+        public List<Blog> GetSomeFakeBlogs();
     }
 }

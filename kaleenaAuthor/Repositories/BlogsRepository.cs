@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using System.Data;
 using kaleenaAuthor.Models;
+using kaleenaAuthor.Interfaces;
 
 namespace kaleenaAuthor.Repositories
 {
-    public class BlogsRepository
+    public class BlogsRepository : IBlogsRepository
     {
         private readonly IDbConnection _db;
         public BlogsRepository(IDbConnection db)
@@ -12,24 +13,24 @@ namespace kaleenaAuthor.Repositories
             _db = db;
         }
 
-        internal List<Blog> GetAll()
+        public List<Blog> GetAll()
         {
             List<Blog> blogs = GetSomeFakeBlogs(); 
             return blogs;
         }
-        internal Blog GetById(int blogId)
+        public Blog GetById(int blogId)
         {
             List<Blog> blogs = GetSomeFakeBlogs();
             Blog blog = blogs.Find(x => x.Id == blogId);
             return blog;
         }
-        internal Blog Create(Blog newBlog)
+        public Blog Create(Blog newBlog)
         {
             return newBlog;
         }
 
 
-        internal List<Blog> GetSomeFakeBlogs()
+        public List<Blog> GetSomeFakeBlogs()
         {
             var blog1 = new Blog()
             {
@@ -59,14 +60,14 @@ namespace kaleenaAuthor.Repositories
 
         }
 
-        internal void RemoveBlog(int blogId)
+        public void RemoveBlog(int blogId)
         {
             List<Blog> blogs = GetSomeFakeBlogs();
             Blog blogToDelete = GetById(blogId);
             blogs.Remove(blogToDelete);
         }
 
-        internal Blog Edit(Blog editedBlog)
+        public Blog Edit(Blog editedBlog)
         {
             List<Blog> blogs = GetSomeFakeBlogs();
             Blog blogToEdit = new Blog();

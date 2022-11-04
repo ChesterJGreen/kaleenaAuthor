@@ -35,10 +35,8 @@ namespace kaleenaAuthor
             
             services.AddScoped<AccountsRepository>();
             services.AddScoped<AccountService>();
-            services.AddScoped<BlogsService>();
-            services.AddScoped<BlogsRepository>();
-            services.AddScoped<IBlogsService>();
-            services.AddScoped<IBlogsRepository>();
+            services.AddScoped<IBlogsService, BlogsService>();
+            services.AddScoped<IBlogsRepository, BlogsRepository>();
         }
 
         private void ConfigureCors(IServiceCollection services)
