@@ -9,6 +9,7 @@ using MySqlConnector;
 using kaleenaAuthor.Repositories;
 using kaleenaAuthor.Services;
 using kaleenaAuthor.Interfaces;
+using kaleenaAuthor.Interfaces.IBlogsRepository;
 
 namespace kaleenaAuthor
 {
@@ -35,8 +36,8 @@ namespace kaleenaAuthor
             
             services.AddScoped<AccountsRepository>();
             services.AddScoped<AccountService>();
-            services.AddScoped<IBlogsService, BlogsService>();
             services.AddScoped<IBlogsRepository, BlogsRepository>();
+            services.AddScoped<IBlogsService, BlogsService>();
         }
 
         private void ConfigureCors(IServiceCollection services)
