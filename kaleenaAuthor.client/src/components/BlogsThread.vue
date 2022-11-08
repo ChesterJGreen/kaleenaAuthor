@@ -16,6 +16,10 @@ import { AppState } from '../AppState';
 export default {
     name: 'BlogsThread',
     props: {
+        blogs: {
+            type: Object,
+            required: true
+        },
         blog: {
             type: Object,
             required: true

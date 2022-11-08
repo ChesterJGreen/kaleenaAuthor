@@ -28,6 +28,12 @@ import Pop from "../utils/Pop";
   export default {
     name: "BlogPage",
     components: { BlogsThread },
+    props: {
+      blogs: {
+            type: Object,
+            required: true
+        }
+    },
     setup() {
       onMounted(async() => {
         try {

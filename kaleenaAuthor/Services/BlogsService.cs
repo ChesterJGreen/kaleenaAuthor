@@ -6,9 +6,9 @@ namespace kaleenaAuthor.Services
 {
     public class BlogsService : IBlogsService
     {
-        private readonly BlogsRepository _repo;
+        private readonly IBlogsRepository _repo;
 
-        public BlogsService(BlogsRepository repo)
+        public BlogsService(IBlogsRepository repo)
         {
             _repo = repo;
         }

@@ -12,9 +12,9 @@ namespace kaleenaAuthor.Controllers
     [Route("api/[controller]")]
     public class BlogsController : ControllerBase
     {
-        private readonly BlogsService _bs;
+        private readonly IBlogsService _bs;
 
-        public BlogsController(BlogsService bs)
+        public BlogsController(IBlogsService bs)
         {
             _bs = bs;
         }

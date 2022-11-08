@@ -67,11 +67,11 @@ namespace kaleenaAuthor.Repositories
             blogs.Remove(blogToDelete);
         }
 
-        public Blog Edit(Blog editedBlog)
+        public Blog Edit(Blog blogToEdit)
         {
             List<Blog> blogs = GetSomeFakeBlogs();
-            Blog blogToEdit = new Blog();
-            return blogToEdit;
+            Blog editedBlog = new Blog();
+            return editedBlog;
         }
     }
 }
