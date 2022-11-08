@@ -43,6 +43,7 @@ namespace kaleenaAuthor.Repositories
                 Id = 2,
                 Body = "Here is a 2nd body",
                 Name = "Blog2",
+                Image = "https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/03/what-is-a-blog.png"
 
             };
             var blog3 = new Blog()
