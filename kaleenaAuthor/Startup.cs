@@ -8,8 +8,6 @@ using Microsoft.OpenApi.Models;
 using MySqlConnector;
 using kaleenaAuthor.Repositories;
 using kaleenaAuthor.Services;
-using kaleenaAuthor.Interfaces;
-using kaleenaAuthor.Interfaces.IBlogsRepository;
 
 namespace kaleenaAuthor
 {
@@ -59,15 +57,15 @@ namespace kaleenaAuthor
 
         private void ConfigureAuth(IServiceCollection services)
         {
-            // services.AddAuthentication(options =>
-            // {
-            //     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            //     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            // }).AddJwtBearer(options =>
-            // {
-            //     options.Authority = $"https://{Configuration["AUTH0_DOMAIN"]}/";
-            //     options.Audience = Configuration["AUTH0_AUDIENCE"];
-            // });
+            services.AddAuthentication(options =>
+            {
+                // options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                // options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.Authority = $"https://{Configuration["AUTH0_DOMAIN"]}/";
+                options.Audience = Configuration["AUTH0_AUDIENCE"];
+            });
 
         }
 

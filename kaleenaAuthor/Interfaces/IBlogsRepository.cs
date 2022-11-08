@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using kaleenaAuthor.Models;
 
-namespace kaleenaAuthor.Interfaces.IBlogsRepository
+namespace kaleenaAuthor.Repositories
 {
     public interface IBlogsRepository
     {
