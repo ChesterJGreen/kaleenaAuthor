@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace kaleenaAuthor.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/blogs")]
     public class BlogsController : ControllerBase
     {
         private readonly IBlogsService _bs;
