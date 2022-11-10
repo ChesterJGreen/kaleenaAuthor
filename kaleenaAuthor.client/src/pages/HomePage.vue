@@ -1,11 +1,11 @@
 <template>
   <div class="flex-grow-1 container-fluid mt-5">
     <div class="row">
-      <div class="col-3 mt-5">
-        <img alt="logo" class="rounded w-100 my-5 elevation-5"
-          src="https://i.pinimg.com/280x280_RS/97/0e/3d/970e3dcfaa84c409f7879cce2d1c653e.jpg" />
+      <div class="col-4 mt-5 pt-5">
+        <img alt="logo" class="rounded w-100 h-75 my-5 elevation-5"
+          src="src\assets\img\HeroImage.png" />
       </div>
-      <div class="col-9 px-5 mt-5 text-center">
+      <div class="col-8 px-5 mt-5 text-center">
         <img class="w-100 mt-5" src="src\assets\img\Stories.png">
         <span class="f-28">Ready for a shot of <span class="selectable">Happiness?</span></span>
       </div>
@@ -54,16 +54,16 @@
       <div class="col-12 p-5">
         <div class=" lighten-10 row p-5">
           <div class="col-4 px-5">
-            <img class="w-75 mx-3 rounded-circle border  border-info white-box-shadow"
-              src="https://th.bing.com/th/id/OIP.3wtQitk5ts9AzEepDVPyLAHaIy?pid=ImgDet&rs=1">
+            <img class="w-25 mx-3 rounded-circle border  border-info white-box-shadow"
+              src="src\assets\img\LifeImage.jpeg">
           </div>
           <div class="col-4 px-5">
-            <img id="imaginationPic" class="mx-3 rounded-circle border border-info"
-              src="https://www.bing.com/th?id=OIP.qtxvbuVcVvPSy-vYZlLwoQHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2">
+            <img id="imaginationPic" class="mx-3 w-50 rounded-circle border border-info"
+              src="src\assets\img\BooksImage.jpeg">
           </div>
           <div class="col-4 px-5">
-            <img class="w-75 mx-3 bg-white rounded-circle border border-info"
-              src="https://th.bing.com/th/id/R.506ce96b5875a2b4ce2515a19c94f30d?rik=HmHK4w1fN4l%2feQ&riu=http%3a%2f%2fclipartix.com%2fwp-content%2fuploads%2f2016%2f04%2fAmerican-flag-united-states-flag-clipart-3-clipartcow-2.png&ehk=2uh%2fEffAtPqEiKAozxozIzyS4a0XuWVi1W60RsggWCg%3d&risl=&pid=ImgRaw&r=0">
+            <img class="w-25 h-50 mx-3 bg-white rounded-circle border border-info"
+              src="src\assets\img\FaithWhiteCenter.jpeg">
           </div>
           <div class="col-4 px-5 mt-3">
             <h1 class="text-white p-3 rounded text-center black-text-shadow">
