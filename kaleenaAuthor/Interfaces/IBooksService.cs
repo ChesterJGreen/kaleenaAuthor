@@ -5,10 +5,10 @@ namespace kaleenaAuthor.Interfaces
 {
     public interface IBooksService
     {
-        public List<Blog> GetAll();
-        public Blog GetById(int blogId);
-        public Blog Create(Blog newBlog);
-        public Blog Edit(Blog blogToEdit);
-        public void RemoveBook(int blogId); 
+        public List<Book> GetAll();
+        public Book GetById(int bookId);
+        public Book Create(Book newBook);
+        public Book Edit(Book bookToEdit);
+        public void RemoveBook(int bookId); 
     }
 }

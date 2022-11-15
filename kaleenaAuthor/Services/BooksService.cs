@@ -13,27 +13,52 @@ namespace kaleenaAuthor.Services
             _repo = repo;
         }
 
-        Blog IBooksService.Create(Blog newBlog)
+        public Book Create(Book newBook)
         {
             throw new System.NotImplementedException();
         }
 
-        Blog IBooksService.Edit(Blog blogToEdit)
+        public Book Create(Book newBook)
         {
             throw new System.NotImplementedException();
         }
 
-        List<Blog> IBooksService.GetAll()
+        public Book Edit(Book bookToEdit)
         {
             throw new System.NotImplementedException();
         }
 
-        Blog IBooksService.GetById(int blogId)
+        public List<Book> GetAll()
         {
             throw new System.NotImplementedException();
         }
 
-        void IBooksService.RemoveBook(int blogId)
+        public Book GetById(int bookId)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        Book IBooksService.Create(Book newBook)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        Book IBooksService.Edit(Book bookToEdit)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        List<Book> IBooksService.GetAll()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        Book IBooksService.GetById(int bookId)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        void IBooksService.RemoveBook(int bookId)
         {
             throw new System.NotImplementedException();
         }
