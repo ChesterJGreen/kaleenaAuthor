@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using kaleenaAuthor.Models;
-using kaleenaAuthor.Services;
+using kaleenaAuthor.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 

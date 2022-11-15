@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using kaleenaAuthor.Models;
-using kaleenaAuthor.Repositories;
+using kaleenaAuthor.Interfaces;
 
 namespace kaleenaAuthor.Services
 {
