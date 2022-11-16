@@ -7,7 +7,7 @@ using System;
 namespace kaleenaAuthor.Controllers
 {
     [ApiController]
-    [Route("api/blogs")]
+    [Route("api/books")]
     public class BooksController : ControllerBase
     {
         private readonly IBooksService _bs;
