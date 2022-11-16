@@ -13,32 +13,32 @@ public class BooksRepository : IBooksRepository
             _db = db;
         }
 
-    Blog IBooksRepository.Create(Blog newBlog)
+    public Book Create(Book newBook)
     {
         throw new System.NotImplementedException();
     }
 
-    Blog IBooksRepository.Edit(Blog blogToEdit)
+    public Book Edit(Book bookToEdit)
     {
         throw new System.NotImplementedException();
     }
 
-    List<Blog> IBooksRepository.GetAll()
+    public List<Book> GetAll()
     {
         throw new System.NotImplementedException();
     }
 
-    Blog IBooksRepository.GetById(int blogId)
+    public Book GetById(int bookId)
     {
         throw new System.NotImplementedException();
     }
 
-    List<Blog> IBooksRepository.GetSomeFakeBooks()
+    public List<Book> GetSomeFakeBooks()
     {
         throw new System.NotImplementedException();
     }
 
-    void IBooksRepository.RemoveBook(int blogId)
+    public void RemoveBook(int bookId)
     {
         throw new System.NotImplementedException();
     }
