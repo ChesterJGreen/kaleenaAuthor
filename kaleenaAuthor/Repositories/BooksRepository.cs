@@ -15,7 +15,7 @@ public class BooksRepository : IBooksRepository
 
     public Book Create(Book newBook)
     {
-        throw new System.NotImplementedException();
+        return newBook;
     }
 
     public Book Edit(Book bookToEdit)
