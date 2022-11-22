@@ -20,7 +20,9 @@ public class BooksRepository : IBooksRepository
 
     public Book Edit(Book bookToEdit)
     {
-        throw new System.NotImplementedException();
+        List<Book> books = GetSomeFakeBooks();
+        Book editedBook = new Book();
+        return editedBook;
     }
 
     public List<Book> GetAll()
@@ -67,6 +69,8 @@ public class BooksRepository : IBooksRepository
 
     public void RemoveBook(int bookId)
     {
-        throw new System.NotImplementedException();
+        List<Book> books = GetSomeFakeBooks();
+        Book bookToDelete = GetById(bookId);
+        books.Remove(bookToDelete);
     }
 }
