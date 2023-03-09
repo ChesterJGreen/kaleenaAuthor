@@ -54,15 +54,15 @@
       <div class="col-12 p-5">
         <div class=" lighten-10 row p-5">
           <div class="col-4 px-5">
-            <img class="w-25 mx-3 rounded-circle border  border-info white-box-shadow"
+            <img class="w-50 mx-3 rounded-circle border  border-info white-box-shadow"
               src="src\assets\img\LifeImage.jpeg">
           </div>
           <div class="col-4 px-5">
-            <img id="imaginationPic" class="mx-3 w-50 rounded-circle border border-info"
+            <img id="imaginationPic" class="mx-3 w-75 rounded-circle border border-info"
               src="src\assets\img\BooksImage.jpeg">
           </div>
           <div class="col-4 px-5">
-            <img class="w-25 h-50 mx-3 bg-white rounded-circle border border-info"
+            <img class="w-50 h-50 mx-3 bg-white rounded-circle border border-info"
               src="src\assets\img\FaithWhiteCenter.jpeg">
           </div>
           <div class="col-4 px-5 mt-3">
