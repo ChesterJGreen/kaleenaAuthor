@@ -34,6 +34,11 @@
               Contact
             </router-link>
           </li>
+          <li>
+            <router-link :to="{ name: 'Admin' }" class="btn text-success darken-30 selectable text-uppercase">
+              Admin Controls
+            </router-link>
+          </li>
         </ul>
         <ul class="navbar-nav justify-content-right justify-content-end">
           <ul>

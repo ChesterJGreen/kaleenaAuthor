@@ -37,6 +37,11 @@ const routes = [
     name: 'Contact',
     component: loadPage('ContactPage')
   },
+  {
+    path: '/admin',
+    name: 'Admin',
+    component: loadPage('AdminPage')
+  },
 ]
 
 export const router = createRouter({
