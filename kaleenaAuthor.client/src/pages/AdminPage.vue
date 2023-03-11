@@ -13,8 +13,8 @@
           <div class="col-12">
             <form>
               <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1">Book Title</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Book Name">
               </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Example select</label>
