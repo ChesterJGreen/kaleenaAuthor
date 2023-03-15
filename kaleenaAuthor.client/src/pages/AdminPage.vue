@@ -3,16 +3,16 @@
     <div class="row">
       <div class="col-12 mt-5">
         <div class="row">
-          <div class="col-12 text-center hover">
+          <div class="col-3 text-center offset-4 hover mt-5">
             <div class="card bg-dark text-white">
-              <div class="card-img-overlay">
+              <div class="card">
                 <h5 class="card-title"><span class="text-dark">Here are the Admin Controls!</span></h5>
               </div>
             </div>
           </div>
-          <div class="col-12">
+          <div class="col-6  offset-3 mt-5">
             <form>
-              <div class="form-group">
+              <div class="form-group text-center">
                 <label for="exampleFormControlInput1">Book Title</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Book Name">
               </div>
