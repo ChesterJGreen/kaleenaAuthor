@@ -16,6 +16,10 @@
                 <label for="exampleFormControlInput1">Book Title</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Book Name">
               </div>
+              <div class="form-group text-center">
+                <label for="exampleFormControlInput1">Progress Percentage</label>
+                <input type="number" max="100" min="0" class="form-control" id="exampleFormControlInput1" placeholder="Percentage">
+              </div>
               <div class="form-group">
                 <label for="exampleFormControlSelect1">Example select</label>
                 <select class="form-control" id="exampleFormControlSelect1">
