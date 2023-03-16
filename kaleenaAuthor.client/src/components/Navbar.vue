@@ -5,7 +5,7 @@
         <div class="d-flex flex-column align-items-center">
         </div>
         <div class="">
-          <img src="src\assets\img\KSLogoWide.png" class="rounded-pill w-50" alt="">
+          <img src="src\assets\img\Transparent Logo.png" class="rounded-pill w-50" alt="">
         </div>
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
