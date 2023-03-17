@@ -56,10 +56,9 @@
                 src="src\assets\img\Instagram_Glyph_Black.png"></a>
           </ul>
           <ul>
-            <span class="border border-dark rounded border-2 p-1 ">
-              <router-link :to="{ name: 'Blog' }" class="text-dark selectable text-uppercase">
-                Newsletter
-              </router-link>
+            <span class="p-1 ">
+              <button>NEWSLETTER
+              </button>
             </span>
           </ul>
         </ul>
