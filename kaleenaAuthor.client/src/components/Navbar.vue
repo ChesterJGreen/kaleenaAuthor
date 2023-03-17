@@ -57,8 +57,7 @@
           </ul>
           <ul>
             <span class="p-1 ">
-              <button>NEWSLETTER
-              </button>
+              <NewsletterSignupModal />NEWSLETTER
             </span>
           </ul>
         </ul>
