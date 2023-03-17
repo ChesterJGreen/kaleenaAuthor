@@ -23,9 +23,14 @@ const routes = [
     beforeEnter: authGuard
   },
   {
-    path: '/books-art',
-    name: 'Books&Art',
-    component: loadPage('BookAndArtPage')
+    path: '/books',
+    name: 'Books',
+    component: loadPage('BookPage')
+  },
+  {
+    path: '/journeys',
+    name: 'Journeys',
+    component: loadPage('JourneyPage')
   },
   {
     path: '/blog',
