@@ -58,7 +58,7 @@
           <ul>
             <span class="border border-dark rounded border-2 p-1 ">
               <router-link :to="{ name: 'Blog' }" class="text-dark selectable text-uppercase">
-                Join My Newsletter
+                Newsletter
               </router-link>
             </span>
           </ul>
