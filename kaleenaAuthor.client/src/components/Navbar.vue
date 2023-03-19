@@ -57,13 +57,14 @@
           </ul>
           <ul>
             <span class="p-1 ">
-              <NewsletterSignupModal />NEWSLETTER
+              <button class="btn btn-outline-primary" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
             </span>
           </ul>
         </ul>
       </div>
     </nav>
   </div>
+  
 </template>
 
 <script>
