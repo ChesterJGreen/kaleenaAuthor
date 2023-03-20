@@ -57,7 +57,7 @@
           </ul>
           <ul>
             <span class="p-1 ">
-              <button class="btn btn-outline-primary" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
+              <button class="btn text-dark" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
             </span>
           </ul>
         </ul>
@@ -88,5 +88,11 @@ a:hover {
   border-bottom: 2px solid var(--bs-success);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+li {
+  font-family: cursive;
+}
+button {
+  font-family: cursive;
 }
 </style>
