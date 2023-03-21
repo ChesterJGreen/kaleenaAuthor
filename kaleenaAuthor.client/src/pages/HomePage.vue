@@ -8,6 +8,7 @@
       <div class="col-8 px-5 mt-5 text-center">
         <img class="w-100 mt-5" src="src\assets\img\Stories.png">
         <span class="f-28">Ready for a shot of <span class="selectable">Happiness?</span></span>
+        <img class="w-50 mt-5" src="src\assets\img\coupleAirplane640x480.jpg">
       </div>
     </div>
     <div class="row" id="directionsToHappinessParent">
