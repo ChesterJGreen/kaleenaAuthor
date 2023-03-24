@@ -6,7 +6,7 @@
     <router-view />
   </main>
   <footer>
-    <BookUpdates />
+    <FooterNavbar />
   </footer>
 </template>
 
@@ -14,6 +14,7 @@
 import { computed } from 'vue';
 import { AppState } from './AppState';
 import BookUpdates from './components/BookUpdates.vue';
+import FooterNavbar from './components/FooterNavbar.vue';
 
 export default {
   name: "App",
@@ -22,7 +23,7 @@ export default {
       appState: computed(() => AppState)
     };
   },
-  components: { BookUpdates }
+  components: { BookUpdates, FooterNavbar }
 }
 </script>
 <style lang="scss">
