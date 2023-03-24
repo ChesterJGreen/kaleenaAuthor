@@ -1,11 +1,11 @@
 <template>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg px-5 headerForNavBar">
+    <nav class="navbar navbar-expand-lg px-5">
       <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
         <div class="d-flex flex-column align-items-center">
         </div>
         <div class="">
-          <img src="src\assets\img\Transparent Logo.png" class="rounded-pill w-50" alt="">
+          <img src="src\assets\img\Transparent Logo Cropped.png" class="rounded-pill w-50" alt="">
         </div>
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
