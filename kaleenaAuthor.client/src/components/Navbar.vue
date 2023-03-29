@@ -1,47 +1,47 @@
 <template>
   <div class="container-fluid">
-    <nav class="navbar navbar-expand-lg px-5">
+    <nav class="navbar navbar-expand-lg px-3">
       <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
         <div class="d-flex flex-column align-items-center">
         </div>
         <div class="">
-          <img src="src\assets\img\LogoTransparentEnlargedCropped.png" class="rounded-pill w-50" alt="">
+          <img src="src\assets\img\LogoTransparentEnlargedCropped.png" class="rounded-pill w-100" alt="">
         </div>
       </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
         aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon" />
       </button>
-      <div class="collapse navbar-collapse" id="navbarText">
+      <div class="collapse navbar-collapse pt-3" id="navbarText">
         <ul class="navbar-nav me-auto text-dark volk">
           <li>
-            <router-link :to="{ name: 'About' }" class="btn text-dark selectable text-uppercase">
+            <router-link :to="{ name: 'About' }" class="router btn text-dark selectable text-uppercase">
               About Me
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Books' }" class="btn text-dark selectable text-uppercase">
+            <router-link :to="{ name: 'Books' }" class="router btn text-dark selectable text-uppercase">
               Books
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Journeys' }" class="btn text-dark selectable text-uppercase">
+            <router-link :to="{ name: 'Journeys' }" class="router btn text-dark selectable text-uppercase">
               Journeys
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Blog' }" class="btn text-dark selectable text-uppercase">
+            <router-link :to="{ name: 'Blog' }" class="router btn text-dark selectable text-uppercase">
               Blog
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Contact' }" class="btn text-dark selectable text-uppercase">
+            <router-link :to="{ name: 'Contact' }" class="router btn text-dark selectable text-uppercase">
               Contact
             </router-link>
           </li>
 
           <li>
-            <router-link :to="{ name: 'Admin' }" class="btn text-dark selectable text-uppercase">
+            <router-link :to="{ name: 'Admin' }" class="router btn text-dark selectable text-uppercase">
               Admin Controls
             </router-link>
           </li>
@@ -96,6 +96,9 @@ a:hover {
 .volk {
   font-family: 'Vollkorn', serif;
   font-size: 30px;
+}
+.router {
+  font-size: 85%;
 }
 button {
   font-family: cursive;
