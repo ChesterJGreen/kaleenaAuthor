@@ -15,49 +15,53 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto text-dark">
           <li>
-            <router-link :to="{ name: 'About' }" class="btn text-success darken-30 selectable text-uppercase">
+            <router-link :to="{ name: 'About' }" class="btn text-dark selectable text-uppercase">
               About Me
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Books' }" class="btn text-success darken-30 selectable text-uppercase">
+            <router-link :to="{ name: 'Books' }" class="btn text-dark selectable text-uppercase">
               Books
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Journeys' }" class="btn text-success darken-30 selectable text-uppercase">
+            <router-link :to="{ name: 'Journeys' }" class="btn text-dark selectable text-uppercase">
               Journeys
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Blog' }" class="btn text-success darken-30 selectable text-uppercase">
+            <router-link :to="{ name: 'Blog' }" class="btn text-dark selectable text-uppercase">
               Blog
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'Contact' }" class="btn text-success darken-30 selectable text-uppercase">
+            <router-link :to="{ name: 'Contact' }" class="btn text-dark selectable text-uppercase">
               Contact
             </router-link>
           </li>
 
           <li>
-            <router-link :to="{ name: 'Admin' }" class="btn text-success darken-30 selectable text-uppercase">
+            <router-link :to="{ name: 'Admin' }" class="btn text-dark selectable text-uppercase">
               Admin Controls
             </router-link>
           </li>
         </ul>
         <ul class="navbar-nav justify-content-right justify-content-end">
           <ul>
-            <a href="https://www.facebook.com/kaleena.shreeve"><img width="25"
-                src="src\assets\img\f_logo_RGB-Black_144.png"></a>
+            <a href="https://www.facebook.com/kaleena.shreeve"><img width="75"
+                src="src\assets\img\facebookLogo.png"></a>
           </ul>
           <ul>
-            <a href="https://www.instagram.com/kaleenashreeve1/"><img width="25"
-                src="src\assets\img\Instagram_Glyph_Black.png"></a>
+            <a href="https://www.instagram.com/kaleenashreeve1/"><img width="75"
+                src="src\assets\img\InstagramLogo.png"></a>
+          </ul>
+          <ul>
+            <a href="https://www.instagram.com/kaleenashreeve1/"><img width="75"
+                src="src\assets\img\PinterestLogo.png"></a>
           </ul>
           <ul>
             <span class="p-1 ">
-              <button class="btn text-dark" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
+              <button class="btn text-light rounded-pill" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
             </span>
           </ul>
         </ul>
