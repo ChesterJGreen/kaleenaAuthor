@@ -13,7 +13,7 @@
         <span class="navbar-toggler-icon" />
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto text-dark">
+        <ul class="navbar-nav me-auto text-dark volk">
           <li>
             <router-link :to="{ name: 'About' }" class="btn text-dark selectable text-uppercase">
               About Me
@@ -56,12 +56,12 @@
                 src="src\assets\img\InstagramLogo.png"></a>
           </ul>
           <ul>
-            <a href="https://www.instagram.com/kaleenashreeve1/"><img width="75"
+            <a href="https://www.pinterest.com/kaleenashreeve/"><img width="75"
                 src="src\assets\img\PinterestLogo.png"></a>
           </ul>
           <ul>
             <span class="p-1 ">
-              <button class="btn text-light rounded-pill" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
+              <button class="btn text-white rounded-pill bg-primary volk p-1.5" data-toggle="modal" data-target="#newsletterModal">Newsletter</button>
             </span>
           </ul>
         </ul>
@@ -93,8 +93,9 @@ a:hover {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-li {
-  font-family: cursive;
+.volk {
+  font-family: 'Vollkorn', serif;
+  font-size: 30px;
 }
 button {
   font-family: cursive;
