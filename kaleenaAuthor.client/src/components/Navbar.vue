@@ -3,10 +3,10 @@
     <nav class="row navbar navbar-expand-lg">
       <div class="col-12">
         <div class="row">
-          <div class="col-10">
+          <div class="col-9">
           </div>
-          <div class="col-2 p-2" id="SweetBites">
-            <img src="src\assets\img\Arrow.png" class="w-25" id="Arrow">
+          <div class="col-3 p-2" id="SweetBites">
+            <img src="src\assets\img\Arrow.png" id="Arrow">
             <span class="text-start" id="SBText">Sweet Bites</span>
           </div>
         </div>
@@ -52,16 +52,16 @@
                     </div>
                     <div class="col-4 d-flex">
                       <li>
-                        <a href="https://www.facebook.com/kaleena.shreeve"><img width="75"
-                            src="src\assets\img\facebookLogo.png"></a>
+                        <a href="https://www.facebook.com/kaleena.shreeve"><img width="50"
+                            src="src\assets\img\f_logo_RGB-Black_144.png"></a>
                       </li>
-                      <li>
-                        <a href="https://www.instagram.com/kaleenashreeve1/"><img width="75"
-                            src="src\assets\img\InstagramLogo.png"></a>
+                      <li class="mx-2">
+                        <a href="https://www.instagram.com/kaleenashreeve1/"><img width="50"
+                            src="src\assets\img\Instagram_Glyph_Black.png"></a>
                       </li>
-                      <li>
-                        <a href="https://www.pinterest.com/kaleenashreeve/"><img width="75"
-                            src="src\assets\img\PinterestLogo.png"></a>
+                      <li class="me-2">
+                        <a href="https://www.pinterest.com/kaleenashreeve/"><img width="50"
+                            src="src\assets\img\P-Badge-Cosmicore-Black-900.png"></a>
                       </li>
                       <li>
                         <span class="p-1 ">
@@ -128,14 +128,15 @@ button {
 
 #Arrow {
   position: absolute;
-  top: .75em;
-  left: -2em;
+  top: .25em;
+  left: .25em;
+  width: 21%;
 }
 
 #SBText {
   position: absolute;
   top: -0.25em;
-  left: 0.5em;
+  left: 2em;
   font-size: xx-large;
   font-family: 'Lora', serif;
 }
