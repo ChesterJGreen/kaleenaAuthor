@@ -21,9 +21,9 @@
           <div class="col-9">
             <div class="collapse navbar-collapse pt-3" id="navbarText">
               <ul class="navbar-nav justify-content-right justify-content-end">
-                <ul class="navbar-nav me-auto text-dark volk">
-                  <div class="row">
-                    <div class="col-9">
+                <ul class="navbar-nav me-auto text-dark volk d-flex flex-row">
+                  <div class="row ">
+                    <div class="col-8 d-flex">
                       <li>
                         <router-link :to="{ name: 'About' }" class="router btn text-dark selectable text-uppercase">
                           About Me
@@ -50,7 +50,7 @@
                         </router-link>
                       </li>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 d-flex">
                       <li>
                         <a href="https://www.facebook.com/kaleena.shreeve"><img width="75"
                             src="src\assets\img\facebookLogo.png"></a>
@@ -128,14 +128,14 @@ button {
 
 #Arrow {
   position: absolute;
-  top: 1em;
-  left: 0;
+  top: .75em;
+  left: -2em;
 }
 
 #SBText {
   position: absolute;
-  top: 0;
-  left: 1.5em;
+  top: -0.25em;
+  left: 0.5em;
   font-size: xx-large;
   font-family: 'Lora', serif;
 }
