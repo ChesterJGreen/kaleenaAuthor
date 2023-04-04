@@ -18,9 +18,8 @@
       
     </div>
    
-    
-    <div class="row bg-info text-dark p-4">
-            <div class="col-9">
+    <div class="row">
+            <div class="col-8">
                 <div class="row">
                     <div class="col-12 p-4">
                         Premium Reading Experience
@@ -31,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3 pb-2 bg-success rounded">
+            <div class="col-3 bg-success rounded">
                 <div class="row">
                     <div class="col-12 text-center mt-2">
                         <span>Progress Bar</span>
