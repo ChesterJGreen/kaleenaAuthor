@@ -1,89 +1,24 @@
 <template>
-  <div class="flex-grow-1 container-fluid mt-5">
+  <div class="flex-grow-1 container-fluid">
     <div class="row">
-      <div class="col-4 mt-5 pt-5">
-        <img alt="logo" class="rounded w-100 h-75 my-5 elevation-5"
-          src="src\assets\img\HeroImage.png" />
+      <div class="col-12 my-5" id="HeroImg">
+        <img alt="logo" class=" w-100"
+        src="src\assets\img\womanWalking.jpg.jpg" />
       </div>
-      <div class="col-8 px-5 mt-5 text-center">
-        <img class="w-100 mt-5" src="src\assets\img\Stories.png">
-        <span class="f-28">Ready for a shot of <span class="selectable">Happiness?</span></span>
-        <img class="w-50 mt-5" src="src\assets\img\coupleAirplane640x480.jpg">
-      </div>
-    </div>
-    <div class="row" id="directionsToHappinessParent">
-      <div class="col-4 bg-success elevation-5" id="directionsToHappiness">
+      <div class="col-12">
         <div class="row">
-          <div class="col-12 pt-3">
-            <span class="f-24 px-4 white-text-shadow">Directions to escape to</span><br>
-            <span class="f-24 px-4 white-text-shadow hoverme" @click="">Happiness:</span>
+          <div class="col-5 offset-6" id="LoveStoryTxt">
+            <p class="text-white text-center">LIVE IN A</p>
+            <p class="text-white text-center">LOVE STORY</p>
+          </div>
+        </div>
 
-            <hr />
-            <hr />
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 text-center white-text-shadow">
-            <br>
-            <ul>
-              <span>Read stories that inspire, uplift, and entertain you</span>
-            </ul>
-            <ul class="text-center">
-              <span> - OR -</span>
-            </ul>
-            <ul>
-              <span>Indulge in books featuring Hot cowboys + kissing that is sweet with a brush of heat -XOXO</span>
-            </ul>
-            <br>
-          </div>
-        </div>
       </div>
-      <div class="col-8">
-        <p>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-        </p>
-      </div>
+      
+      
     </div>
-    <div class="bg-primary mt-5 row align-items-center">
-      <div class="col-12 p-5">
-        <div class=" lighten-10 row p-5">
-          <div class="col-4 px-5">
-            <img class="w-50 mx-3 rounded-circle border  border-info white-box-shadow"
-              src="src\assets\img\LifeImage.jpeg">
-          </div>
-          <div class="col-4 px-5">
-            <img id="imaginationPic" class="mx-3 w-75 rounded-circle border border-info"
-              src="src\assets\img\BooksImage.jpeg">
-          </div>
-          <div class="col-4 px-5">
-            <img class="w-50 h-50 mx-3 bg-white rounded-circle border border-info"
-              src="src\assets\img\FaithWhiteCenter.jpeg">
-          </div>
-          <div class="col-4 px-5 mt-3">
-            <h1 class="text-white p-3 rounded text-center black-text-shadow">
-              Life
-            </h1>
-          </div>
-          <div class="col-4 px-5 mt-3">
-            <h1 class="text-white p-3 rounded text-center black-text-shadow">
-              Imagination
-            </h1>
-          </div>
-          <div class="col-4 px-5 mt-3">
-            <h1 class="text-white p-3 rounded text-center black-text-shadow">
-              Faith
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
+   
+    
     <div class="row bg-info text-dark p-4">
             <div class="col-9">
                 <div class="row">
@@ -176,5 +111,16 @@ export default {
 
 #imaginationPic {
   width: 88%;
+}
+#HeroImg {
+  position: relative;
+}
+#LoveStoryTxt {
+  position: absolute;
+  left: 1.5em;
+  top: 3em;
+  font-size: 500%;
+  font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 1px 1px rgba(0,0,0,0.5)
 }
 </style>
