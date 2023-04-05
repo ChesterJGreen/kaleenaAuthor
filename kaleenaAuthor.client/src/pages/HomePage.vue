@@ -18,16 +18,47 @@
 
       <div class="col-12">
       </div>
-      
-      
+
+
     </div>
     <div class="row">
       <div class="col-12 text-center bg-offWhite py-5">
         <span id="FeelTheSighText">Feel the sigh and experience the fireworks.</span>
-
       </div>
     </div>
+    <div class="row mt-5">
+      <div class="col-6">
+        <div class="row">
+          <div class="col-3 text-center">
+            <img src="src\assets\img\CowboyPng.png" width="150">
+          </div>
+          <div class="col-9 text-center ifStatements px-4">
+            <button class="btn text-white rounded-pill bg-primary p-1.5 p-2 ifStatements" data-toggle="modal"
+                            data-target="">Click Here</button>
+            <p>if a <b>hot cowboy</b></p>
+            <p>staring at you would make you blush</p>
+          </div>
 
+        </div>
+        
+      </div>
+      <div class="col-6">
+        <div class="row">
+          <div class="col-9 text-center ifStatements px-4">
+            <button class="btn text-white rounded-pill bg-primary p-1.5 p-2 ifStatements" data-toggle="modal"
+            data-target="">Click Here</button>
+            <p>if you believe</p>
+            <p><b>love and romance</b> is all around you</p>
+          </div>
+          <div class="col-3">
+            <img src="">
+          </div>
+          
+        </div>
+
+      </div>
+
+    </div>
     <div class="row">
       <div class="col-8">
         <div class="row">
@@ -134,10 +165,15 @@ export default {
 
 #FeelTheSighText {
   font-size: 300%;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 
 }
+
 .bg-offWhite {
   background-color: rgba(246, 246, 235);
+}
+.ifStatements {
+  font-size: x-large;
+  font-family:'Courier New', Courier, monospace ;
 }
 </style>
