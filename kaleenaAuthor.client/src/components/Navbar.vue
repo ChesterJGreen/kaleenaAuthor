@@ -3,22 +3,20 @@
     <nav class="row navbar navbar-expand-lg">
       <div class="col-12">
         <div class="row">
-          <div class="col-9">
-          </div>
-          <div class="col-3 p-2" id="SweetBites">
+          <div class="col-3 p-2 offset-9" id="SweetBites">
             <img src="src\assets\img\Arrow.png" id="Arrow">
             <span class="text-start" id="SBText">Sweet Bites</span>
           </div>
         </div>
         <div class="row">
-          <div class="col-2">
+          <div class="col-2 ms-5">
             <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
               <div class="d-flex flex-column align-items-center">
                 <img src="src\assets\img\LogoTransparentEnlargedCropped.png" class="rounded-pill w-100" alt="">
               </div>
             </router-link>
           </div>
-          <div class="col-10">
+          <div class="col-9">
             <div class="collapse navbar-collapse pt-3" id="navbarText">
               <ul class="navbar-nav justify-content-right justify-content-end">
                 <ul class="navbar-nav me-auto text-dark volk d-flex flex-row">
@@ -52,7 +50,7 @@
                       </li>
                     </Div>
                     </div>
-                    <div class="col-3 d-flex">
+                    <div class="col-2 d-flex ms-5">
                       <li>
                         <a href="https://www.facebook.com/kaleena.shreeve"><img width="35"
                             src="src\assets\img\f_logo_RGB-Black_144.png"></a>
@@ -130,15 +128,15 @@ button {
 
 #Arrow {
   position: absolute;
-  top: .25em;
-  left: -1.5em;
-  width: 21%;
+  top: .5em;
+  left: 8em;
+  width: 15%;
 }
 
 #SBText {
   position: absolute;
   top: -0.25em;
-  left: 1em;
+  left: 5.25em;
   font-size: xx-large;
   font-family: 'Lora', serif;
 }

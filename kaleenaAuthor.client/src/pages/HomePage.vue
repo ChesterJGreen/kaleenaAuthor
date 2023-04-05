@@ -1,10 +1,12 @@
 <template>
   <div class="flex-grow-1 container-fluid">
     <div class="row">
-      <div class="col-12 my-5" id="HeroImg">
-        <img alt="logo" class=" w-100"
-        src="src\assets\img\womanWalking.jpg.jpg" />
+      <div class="col-12 my-3"></div>
+      <div class="col-12 p-0" id="HeroImg">
+        <img alt="logo" class=" w-100" src="src\assets\img\womanWalking.jpg.jpg" />
       </div>
+    </div>
+    <div class="row">
       <div class="col-12">
         <div class="row">
           <div class="col-5 offset-6" id="LoveStoryTxt">
@@ -12,54 +14,59 @@
             <p class="text-white text-center">LOVE STORY</p>
           </div>
         </div>
+      </div>
 
+      <div class="col-12">
       </div>
       
       
     </div>
-   
     <div class="row">
-            <div class="col-8">
-                <div class="row">
-                    <div class="col-12 p-4">
-                        Premium Reading Experience
-                    </div>
-                    <div class="col-12 text-center p-4 d-flex align-items-end">
-                        Site Ingredients: Love, Happiness, Truth, Creativity, Cowboys, Romance, Kissing, Heartstrings,
-                        Happily Ever Afters
-                    </div>
-                </div>
-            </div>
-            <div class="col-3 bg-success rounded">
-                <div class="row">
-                    <div class="col-12 text-center mt-2">
-                        <span>Progress Bar</span>
-                        <hr class="striped-border">
-                    </div>
-                    <div class="pb-3"><span>Stolen Heart</span>
-                        <div class="progress">
-                            <div class="progress-bar text-dark progress-bar-striped progress-bar-animated"
-                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 75%">75%</div>
-                        </div>
-                    </div>
-                    <div class="pb-3"><span>Christmas Novela</span>
-                        <div class="progress">
-                            <div class="progress-bar text-dark progress-bar-striped progress-bar-animated"
-                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 20%">20%</div>
-                        </div>
-                    </div>
-                    <div class="pb-3"><span>Night Train</span>
-                        <div class="progress">
-                            <div class="progress-bar text-dark progress-bar-striped progress-bar-animated"
-                                role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                style="width: 30%">30%</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="col-12 text-center bg-offWhite py-5">
+        <span id="FeelTheSighText">Feel the sigh and experience the fireworks.</span>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-8">
+        <div class="row">
+          <div class="col-12 p-4">
+            Premium Reading Experience
+          </div>
+          <div class="col-12 text-center p-4 d-flex align-items-end">
+            Site Ingredients: Love, Happiness, Truth, Creativity, Cowboys, Romance, Kissing, Heartstrings,
+            Happily Ever Afters
+          </div>
         </div>
+      </div>
+      <div class="col-3 bg-success rounded">
+        <div class="row">
+          <div class="col-12 text-center mt-2">
+            <span>Progress Bar</span>
+            <hr class="striped-border">
+          </div>
+          <div class="pb-3"><span>Stolen Heart</span>
+            <div class="progress">
+              <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+            </div>
+          </div>
+          <div class="pb-3"><span>Christmas Novela</span>
+            <div class="progress">
+              <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%">20%</div>
+            </div>
+          </div>
+          <div class="pb-3"><span>Night Train</span>
+            <div class="progress">
+              <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar"
+                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -69,7 +76,7 @@ export default {
   name: "Home",
   setup() {
     return {
-      
+
     }
   }
 }
@@ -111,15 +118,26 @@ export default {
 #imaginationPic {
   width: 88%;
 }
+
 #HeroImg {
   position: relative;
 }
+
 #LoveStoryTxt {
   position: absolute;
   left: 1.5em;
   top: 3em;
   font-size: 500%;
-  font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-shadow: 2px 1px 1px rgba(0,0,0,0.5)
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5)
+}
+
+#FeelTheSighText {
+  font-size: 300%;
+  font-family:'Times New Roman', Times, serif;
+
+}
+.bg-offWhite {
+  background-color: rgba(246, 246, 235);
 }
 </style>
