@@ -30,7 +30,7 @@
       <div class="col-6">
         <div class="row">
           <div class="col-3 text-center">
-            <img src="src\assets\img\CowboyPng.png" width="150">
+            <img src="src\assets\img\CowboyBlack.png" width="150">
           </div>
           <div class="col-9 text-center ifStatements px-4">
             <button class="btn text-white rounded-pill bg-primary p-1.5 p-2 ifStatements" data-toggle="modal"
@@ -51,7 +51,7 @@
             <p><b>love and romance</b> is all around you</p>
           </div>
           <div class="col-3">
-            <img src="">
+            <img src="src\assets\img\CoupleKissing.png" width="150">
           </div>
           
         </div>
@@ -59,45 +59,7 @@
       </div>
 
     </div>
-    <div class="row">
-      <div class="col-8">
-        <div class="row">
-          <div class="col-12 p-4">
-            Premium Reading Experience
-          </div>
-          <div class="col-12 text-center p-4 d-flex align-items-end">
-            Site Ingredients: Love, Happiness, Truth, Creativity, Cowboys, Romance, Kissing, Heartstrings,
-            Happily Ever Afters
-          </div>
-        </div>
-      </div>
-      <div class="col-3 bg-success rounded">
-        <div class="row">
-          <div class="col-12 text-center mt-2">
-            <span>Progress Bar</span>
-            <hr class="striped-border">
-          </div>
-          <div class="pb-3"><span>Stolen Heart</span>
-            <div class="progress">
-              <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
-            </div>
-          </div>
-          <div class="pb-3"><span>Christmas Novela</span>
-            <div class="progress">
-              <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%">20%</div>
-            </div>
-          </div>
-          <div class="pb-3"><span>Night Train</span>
-            <div class="progress">
-              <div class="progress-bar text-dark progress-bar-striped progress-bar-animated" role="progressbar"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 30%">30%</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </template>
 
