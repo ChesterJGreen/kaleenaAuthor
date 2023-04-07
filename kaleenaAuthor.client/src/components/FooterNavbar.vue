@@ -1,52 +1,57 @@
 <template>
   <div class="container-fluid">
-    <div row>
+    <div class="row">
       <div class="col-12">
         <span>Envelope</span>
       </div>
-      <nav class="navbar navbar-expand-lg px-5">
-        <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-          <div class="d-flex flex-column align-items-center">
-          </div>
-          <div class="">
-            <img src="src\assets\img\Transparent Logo Cropped.png" class="rounded-pill w-50" alt="">
-          </div>
-        </router-link>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon" />
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto text-dark">
-            <li>
-              <router-link :to="{ name: 'About' }" class="btn text-success darken-30 selectable text-uppercase">
-                About Me
-              </router-link>
-            </li>
-            <li>
-              <router-link :to="{ name: 'Books' }" class="btn text-success darken-30 selectable text-uppercase">
-                Books
-              </router-link>
-            </li>
-            <li>
-              <router-link :to="{ name: 'Contact' }" class="btn text-success darken-30 selectable text-uppercase">
-                Contact
-              </router-link>
-            </li>
-          </ul>
-          <ul class="navbar-nav justify-content-right justify-content-end">
-            <ul>
-              <a href="https://www.facebook.com/kaleena.shreeve"><img width="25"
-                  src="src\assets\img\f_logo_RGB-Black_144.png"></a>
-            </ul>
-            <ul>
-              <a href="https://www.instagram.com/kaleenashreeve1/"><img width="25"
-                  src="src\assets\img\Instagram_Glyph_Black.png"></a>
-            </ul>
-          </ul>
-        </div>
-      </nav>
     </div>
+    <div class="row">
+    </div>
+    <div class="row">
+    </div>
+    <nav class="navbar navbar-expand-lg px-5">
+      <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
+        <div class="d-flex flex-column align-items-center">
+        </div>
+        <div class="">
+          <img src="src\assets\img\Transparent Logo Cropped.png" class="rounded-pill w-50" alt="">
+        </div>
+      </router-link>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" />
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto text-dark">
+          <li>
+            <router-link :to="{ name: 'About' }" class="btn text-success darken-30 selectable text-uppercase">
+              About Me
+            </router-link>
+          </li>
+          <li>
+            <router-link :to="{ name: 'Books' }" class="btn text-success darken-30 selectable text-uppercase">
+              Books
+            </router-link>
+          </li>
+          <li>
+            <router-link :to="{ name: 'Contact' }" class="btn text-success darken-30 selectable text-uppercase">
+              Contact
+            </router-link>
+          </li>
+        </ul>
+        <ul class="navbar-nav justify-content-right justify-content-end">
+          <ul>
+            <a href="https://www.facebook.com/kaleena.shreeve"><img width="25"
+                src="src\assets\img\f_logo_RGB-Black_144.png"></a>
+          </ul>
+          <ul>
+            <a href="https://www.instagram.com/kaleenashreeve1/"><img width="25"
+                src="src\assets\img\Instagram_Glyph_Black.png"></a>
+          </ul>
+        </ul>
+      </div>
+
+    </nav>
   </div>
 </template>
 
