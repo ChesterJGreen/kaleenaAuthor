@@ -1,8 +1,12 @@
 <template>
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12">
-        <span>Envelope</span>
+    <div class="row pinkSquareBorder">
+      <div class="col-10 offset-1 pinkBorder">
+        <div class="row">
+          <div class="col-3">
+            
+          </div>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -84,5 +88,10 @@ li {
 
 button {
   font-family: cursive;
+}
+.pinkBorder {
+  border: solid 12px;
+  border-color: rgb(250, 183, 224);
+  border-radius: 12px;
 }
 </style>
