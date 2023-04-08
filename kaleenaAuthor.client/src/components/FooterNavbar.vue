@@ -1,13 +1,26 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid mt-5">
     <div class="row pinkSquareBorder">
       <div class="col-10 offset-1 pinkBorder">
         <div class="row">
-          <div class="col-3">
-            <img src="src\assets\img\LogoTransparentEnlargedCropped.png">
+          <div class="col-3 p-5">
+            <img src="src\assets\img\LogoTransparentEnlargedCropped.png" width="300">
           </div>
-          <div class="col-6"></div>
-          <div class="col-3"></div>
+          <div class="col-6 p-5 text-center">
+            <div class="row">
+              <div class="col-12 pt-5" id="SweetBites">
+                <p class="ThanksText">Thanks for stopping by!</p>
+                <button class="btn rounded p-4 keepInTouch" data-toggle="modal"
+                            data-target="#newsletterModal">Let's keep in touch</button>
+                  <img src="src\assets\img\Arrow.png" id="Arrow">
+                  <p id="SBText">Sweet Bites</p>
+                <p>Newsletter</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 pt-5">
+            <img src="src\assets\img\StampPic.png">
+          </div>
         </div>
       </div>
     </div>
@@ -89,11 +102,36 @@ li {
 }
 
 button {
-  font-family: cursive;
+  font-size: x-large;
 }
+
 .pinkBorder {
   border: solid 12px;
   border-color: rgb(250, 183, 224);
   border-radius: 12px;
+}
+
+.ThanksText {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 300%;
+}
+#SweetBites {
+  position: relative;
+}
+
+#Arrow {
+  position: absolute;
+  top: 10em;
+  left: 8em;
+  width: 15%;
+  transform: scaleY(-1);
+}
+
+#SBText {
+  font-size: xx-large;
+  font-family: 'Lora', serif;
+}
+.keepInTouch {
+  background-color: rgb(201 210 188);
 }
 </style>
