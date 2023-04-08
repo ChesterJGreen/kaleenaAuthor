@@ -4,8 +4,10 @@
       <div class="col-10 offset-1 pinkBorder">
         <div class="row">
           <div class="col-3">
-            
+            <img src="src\assets\img\LogoTransparentEnlargedCropped.png">
           </div>
+          <div class="col-6"></div>
+          <div class="col-3"></div>
         </div>
       </div>
     </div>
