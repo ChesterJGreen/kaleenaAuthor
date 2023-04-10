@@ -14,7 +14,7 @@
                             data-target="#newsletterModal">Let's keep in touch</button>
                   <img src="src\assets\img\Arrow.png" id="Arrow">
                   <p id="SBText">Sweet Bites</p>
-                <p>Newsletter</p>
+                <p id="NewsLetter">Newsletter</p>
               </div>
             </div>
           </div>
@@ -128,10 +128,13 @@ button {
 }
 
 #SBText {
-  font-size: xx-large;
+  font-size: 300%;
   font-family: 'Lora', serif;
 }
 .keepInTouch {
   background-color: rgb(201 210 188);
+}
+#NewsLetter {
+  font-size: 300%;
 }
 </style>
