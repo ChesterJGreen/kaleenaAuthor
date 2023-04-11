@@ -138,6 +138,6 @@ button {
   top: -0.25em;
   left: 5.25em;
   font-size: xx-large;
-  font-family: 'Lora', serif;
+  font-family: 'Rochester', serif;
 }
 </style>
