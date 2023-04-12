@@ -122,19 +122,20 @@ button {
 #Arrow {
   position: absolute;
   top: 10em;
-  left: 8em;
-  width: 15%;
+  left: 6em;
+  width: 21%;
   transform: scaleY(-1);
 }
 
 #SBText {
-  font-size: 300%;
-  font-family: 'Lora', serif;
+  font-size: 400%;
+  font-family: 'Rochester', serif;
 }
 .keepInTouch {
   background-color: rgb(201 210 188);
 }
 #NewsLetter {
   font-size: 300%;
+  font-family: 'Volk', serif;
 }
 </style>
