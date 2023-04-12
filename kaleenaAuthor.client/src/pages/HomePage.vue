@@ -126,8 +126,8 @@ export default {
 }
 
 #FeelTheSighText {
-  font-size: 300%;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 250%;
+  font-family: 'Prata', Times, serif;
 
 }
 
