@@ -35,7 +35,7 @@
           <div class="col-9 text-center ifStatements px-4">
             <button class="btn text-black rounded-pill bg-primary p-1.5 py-2 px-3 rochester" data-toggle="modal"
                             data-target="">c l i c k &nbsp&nbsp h e r e</button>
-            <p>if a <b>hot cowboy</b></p>
+            <p class="mt-3">if a <b>hot cowboy</b></p>
             <p>staring at you would make you blush</p>
           </div>
 
@@ -47,7 +47,7 @@
           <div class="col-9 text-center ifStatements px-4">
             <button class="btn text-black rounded-pill bg-primary p-1.5 py-2 px-3 rochester" data-toggle="modal"
             data-target="">c l i c k &nbsp&nbsp h e r e</button>
-            <p>if you believe</p>
+            <p class="mt-3">if you believe</p>
             <p><b>love and romance</b> is all around you</p>
           </div>
           <div class="col-3">
