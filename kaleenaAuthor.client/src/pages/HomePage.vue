@@ -33,8 +33,8 @@
             <img src="src\assets\img\CowboyBlack.png" width="150">
           </div>
           <div class="col-9 text-center ifStatements px-4">
-            <button class="btn text-white rounded-pill bg-primary p-1.5 p-2 ifStatements" data-toggle="modal"
-                            data-target="">Click Here</button>
+            <button class="btn text-black rounded-pill bg-primary p-1.5 py-2 px-3 rochester" data-toggle="modal"
+                            data-target="">c l i c k &nbsp&nbsp h e r e</button>
             <p>if a <b>hot cowboy</b></p>
             <p>staring at you would make you blush</p>
           </div>
@@ -45,8 +45,8 @@
       <div class="col-6">
         <div class="row">
           <div class="col-9 text-center ifStatements px-4">
-            <button class="btn text-white rounded-pill bg-primary p-1.5 p-2 ifStatements" data-toggle="modal"
-            data-target="">Click Here</button>
+            <button class="btn text-black rounded-pill bg-primary p-1.5 py-2 px-3 rochester" data-toggle="modal"
+            data-target="">c l i c k &nbsp&nbsp h e r e</button>
             <p>if you believe</p>
             <p><b>love and romance</b> is all around you</p>
           </div>
@@ -137,5 +137,9 @@ export default {
 .ifStatements {
   font-size: x-large;
   font-family:'Courier New', Courier, monospace ;
+}
+.rochester {
+  font-size: larger;
+  font-family: 'Rochester', 'Times New Roman', Times, serif;
 }
 </style>
