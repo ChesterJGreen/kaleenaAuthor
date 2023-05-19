@@ -11,7 +11,14 @@
         </div>
         <div class="col-9">
           <h2 class="text-center">Gavin is a lonely cowboy. Sarah needs a fresh start.</h2>
+          <h2 class="text-center"><p>A modern day arranged marriage ropest them together, </p>
+            <p> but will the tethers that bind them be strong </p>
+            <p> enought to overcome their explosive beginning?</p>
+            <p><a class="text-center">READ MORE</a></p>
+          </h2>
         </div>
+        
+        
       </div>
     </div>
   </template>
