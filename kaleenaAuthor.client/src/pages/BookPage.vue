@@ -35,6 +35,12 @@
         
         
       </div>
+      <div class="row mt-5">
+        <div class="col-5 text-center"><button class="rounded"><a>Buy on Amazon</a></button></div>
+        <div class="col-5 offset-2">
+          
+        </div>
+      </div>
     </div>
   </template>
   
