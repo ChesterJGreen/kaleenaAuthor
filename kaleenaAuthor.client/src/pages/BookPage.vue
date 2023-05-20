@@ -37,8 +37,10 @@
       </div>
       <div class="row mt-5">
         <div class="col-5 text-center"><button class="rounded"><a>Buy on Amazon</a></button></div>
-        <div class="col-5 offset-2">
-          
+        <div class="col-4 offset-2 border rounded p-5">
+          <p><h2 class="text-center">Books Progres Bars</h2></p>
+          <p><h6>Cowboy Christmas Novella</h6></p>
+          <p><h6>Secret Heart--Lonely Cowboy Hearts Book 2</h6></p>
         </div>
       </div>
     </div>
