@@ -9,9 +9,15 @@
     <div class="row">
       <div class="col-12">
         <div class="row">
-          <div class="col-5 offset-6" id="LoveStoryTxt">
+          <div class="col-5 mt-5" id="LoveStoryTxt">
+            <br>
             <p class="text-white text-center">LIVE IN A</p>
             <p class="text-white text-center">LOVE STORY</p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <img class="rounded-pill" src="src\assets\img\KaleenaCirclePortraitCowboyHat.jpg" />
+            </div>
           </div>
         </div>
       </div>
@@ -118,7 +124,7 @@ export default {
 
 #LoveStoryTxt {
   position: absolute;
-  left: 1.5em;
+  left: -0.75em;
   top: 3em;
   font-size: 500%;
   font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
