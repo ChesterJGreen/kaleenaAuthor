@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="col-3 pt-5">
-            <img src="src\assets\img\StampPic.png">
+            <img src="src\assets\img\newStamp.jpg" width="225">
           </div>
         </div>
       </div>
