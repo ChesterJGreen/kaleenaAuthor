@@ -53,14 +53,14 @@
             <p><a class="text-center Volk fs50"><u>R E A D &nbsp M O R E</u></a></p>
           </h3>
           <br>
-          <h6 class="text-center">
+          <h6 class="text-center ZillaSlab">
             <p>"Had we been associated under different circumstances, I would have chased you and your beautiful</p>
             <p>shiny red hair and gemstone eyes, until you would have know that there isn't another woman in</p>
             <p>the world, that a man wanted more than I want you."</p>
             <p class="text-end Yesteryear fs200">- Gavin</p>
           </h6>
           <br>
-          <h6 class="text-center">
+          <h6 class="text-center ZillaSlab">
             <p>"Gentle fingers below her chin raised her lips to his own. His mouth was soft and inviting and she</p>
             <p>reciprocated the kisses born of affection. Each spoke of trust, something she had always wanted,</p>
             <p>but now could not afford."</p>
