@@ -15,7 +15,7 @@
             <p class="text-white text-center">LOVE STORY</p>
           </div>
           <div class="row">
-            <div class="col-12">
+            <div class="col-5" id="KaleenaCowboyHat">
               <img class="rounded-pill" src="src\assets\img\KaleenaCirclePortraitCowboyHat.jpg" />
             </div>
           </div>
@@ -28,10 +28,18 @@
 
     </div>
     <div class="row">
-      <div class="col-12 text-center bg-offWhite py-5">
-        <span id="FeelTheSighText">Feel the sigh and experience the fireworks.</span>
+      <div class="col-12 bg-offWhite py-5">
+        <span class="ps-5 FeelTheSighText">Feel the sigh and experience the fireworks.</span>
+        <div class="text-center ps-5 offset-3"> 
+          <span class=" text-center FeelTheSighText">- XOXO Kaleena</span>
+        </div>
       </div>
     </div>
+    <div class="row">
+      
+    </div>
+
+
     <div class="row mt-5">
       <div class="col-6">
         <div class="row">
@@ -130,10 +138,15 @@ export default {
   font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.5)
 }
+#KaleenaCowboyHat {
+  position: absolute;
+  right: -16em;
+  top: 30em;
+}
 
-#FeelTheSighText {
-  font-size: 250%;
-  font-family: 'Prata', Times, serif;
+.FeelTheSighText {
+  font-size: 350%;
+  font-family: 'Yesteryear', cursive;
 
 }
 
@@ -148,4 +161,5 @@ export default {
   font-size: larger;
   font-family: 'Rochester', 'Times New Roman', Times, serif;
 }
+
 </style>
