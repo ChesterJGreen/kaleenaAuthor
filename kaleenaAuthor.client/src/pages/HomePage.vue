@@ -86,7 +86,7 @@
         </p>
       </div>
     </div>
-<div class="row bg-secondary mt-5">
+<div class="row mt-5 bg-offWhite">
 <div class="col-4 text-center mt-5">
 <p>
   If you like
@@ -102,7 +102,7 @@
 </p>
 </div>
 <div class="col-4 text-center my-5">
-  <img src="src\assets\img\kaleenaAboutMeMainPage.jpg" />
+  <img src="src\assets\img\kaleenaAboutMeMainPage.jpg" class="rounded-pill" />
 
 </div>
 <div class="col-4 text-center mt-5">
