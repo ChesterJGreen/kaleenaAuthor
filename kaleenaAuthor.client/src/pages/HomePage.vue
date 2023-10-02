@@ -14,11 +14,7 @@
             <p class="text-white text-center">LIVE IN A</p>
             <p class="text-white text-center">LOVE STORY</p>
           </div>
-          <div class="row">
-            <div class="col-5" id="KaleenaCowboyHat">
-              <img class="rounded-pill" src="src\assets\img\KaleenaCirclePortraitCowboyHat.jpg" />
-            </div>
-          </div>
+
         </div>
       </div>
 
@@ -28,20 +24,45 @@
 
     </div>
     <div class="row">
-      <div class="col-12 bg-offWhite py-5">
-        <span class="ps-5 FeelTheSighText Yesteryear">Feel the sigh and experience the fireworks.</span>
-        <div class="text-center ps-5 offset-3">
-          <span class=" text-center FeelTheSighText Yesteryear">- XOXO Kaleena</span>
-        </div>
+      <div class="col-12 bg-offWhite py-5 text-center">
+        <span class="ps-5 FeelTheSighText Prata">Feel the sigh and experience the fireworks.</span>
       </div>
     </div>
     <div class="row">
-      <div class="clo-12 mt-5">
-        <h1 class="text-center Volk fs300"><b>Lonely Cowboy Hearts Series</b></h1>
+      <div class="row mt-4">
+        <div class="col-4 text-center mt-5">
+          <p>
+            If you like
+          </p>
+          <p>
+            Enchanting Stories
+          </p>
+          <p>
+            youare in the right
+          </p>
+          <p>
+            place.
+          </p>
+        </div>
+        <div class="col-4 text-center my-5">
+          <img src="src\assets\img\KaleenaHome2.jpeg" />
+
+        </div>
+        <div class="col-4 text-center mt-5">
+          <p>Hi! I'm Kaleena</p>
+          <p>Author</p>
+          <p>Lover of Romance</p>
+          <p>Seeker of Happiness</p>
+          <p><button>GET TO KNOW ME</button></p>
+        </div>
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-3 p-0">
+    <div class="row bg-offWhite">
+      <div class="col-12 my-5">
+        <h1 class="text-center Volk fs300"><b>Lonely Cowboy Hearts Series</b></h1>
+      </div>
+      
+      <div class="col-3 mt-5 p-0">
         <img src="src\assets\img\stolen-heart-img.png" width="600">
       </div>
       <div class="col-6 offset-2">
@@ -54,24 +75,13 @@
           <p><a class="text-center Volk fs50"><u>R E A D &nbsp M O R E</u></a></p>
         </h3>
         <br>
-        <h6 class="text-center ZillaSlab">
-          <p>"Had we been associated under different circumstances, I would have chased you and your beautiful</p>
-          <p>shiny red hair and gemstone eyes, until you would have know that there isn't another woman in</p>
-          <p>the world, that a man wanted more than I want you."</p>
-          <p class="text-end Yesteryear fs200">- Gavin</p>
-        </h6>
-        <br>
-        <h6 class="text-center ZillaSlab">
-          <p>"Gentle fingers below her chin raised her lips to his own. His mouth was soft and inviting and she</p>
-          <p>reciprocated the kisses born of affection. Each spoke of trust, something she had always wanted,</p>
-          <p>but now could not afford."</p>
-          <p class="text-end Yesteryear fs200">- Sarah</p>
-        </h6>
-
+        
+        
       </div>
-
-
+      
     </div>
+
+    
     <div class="row mt-5">
       <div class="col-5 text-center"><button class="rounded"><a>Buy on Amazon</a></button></div>
       <div class="col-4 offset-2 border rounded p-5">
@@ -86,33 +96,7 @@
         </p>
       </div>
     </div>
-<div class="row mt-5 bg-offWhite">
-<div class="col-4 text-center mt-5">
-<p>
-  If you like
-</p>
-<p>
-  Enchanting Stories
-</p>
-<p>
-  youare in the right
-</p>
-<p>
-  place.
-</p>
-</div>
-<div class="col-4 text-center my-5">
-  <img src="src\assets\img\kaleenaAboutMeMainPage.jpg" class="rounded-pill" />
 
-</div>
-<div class="col-4 text-center mt-5">
-<p>Hi! I'm Kaleena</p>
-<p>Author</p>
-<p>Lover of Romance</p>
-<p>Seeker of Happiness</p>
-<p><button>GET TO KNOW ME</button></p>
-</div>
-</div>
 
     <div class="row mt-5">
       <div class="col-6">
@@ -240,4 +224,5 @@ export default {
 .rochester {
   font-size: larger;
   font-family: 'Rochester', 'Times New Roman', Times, serif;
-}</style>
+}
+</style>
